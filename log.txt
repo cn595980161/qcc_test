@@ -1,0 +1,1318 @@
+ 2019-06-29 17:23:53,926 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 17:23:54,033 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 17:41:13,397 - INFO -  * Restarting with stat
+ 2019-06-29 17:41:14,598 - WARNING -  * Debugger is active!
+ 2019-06-29 17:41:14,619 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:41:14,635 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:41:21,420 - INFO - 127.0.0.1 - - [29/Jun/2019 17:41:21] "GET /login?username=666&password=777 HTTP/1.1" 200 -
+ 2019-06-29 17:43:44,632 - INFO -  * Restarting with stat
+ 2019-06-29 17:43:45,692 - WARNING -  * Debugger is active!
+ 2019-06-29 17:43:45,710 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:43:45,722 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:43:49,843 - INFO - 127.0.0.1 - - [29/Jun/2019 17:43:49] "GET /login?username=666&password=777 HTTP/1.1" 200 -
+ 2019-06-29 17:44:33,128 - INFO -  * Restarting with stat
+ 2019-06-29 17:44:34,208 - WARNING -  * Debugger is active!
+ 2019-06-29 17:44:34,226 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:44:34,239 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:44:38,671 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?username=666&password=777 HTTP/1.1" 500 -
+ 2019-06-29 17:44:38,708 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 17:44:38,711 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 17:44:38,715 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 17:44:38,825 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 17:44:38,856 - INFO - 127.0.0.1 - - [29/Jun/2019 17:44:38] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 17:45:02,372 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?username=666&password=777 HTTP/1.1" 500 -
+ 2019-06-29 17:45:02,396 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 17:45:02,402 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 17:45:02,405 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 17:45:02,486 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 17:45:02,510 - INFO - 127.0.0.1 - - [29/Jun/2019 17:45:02] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 17:45:08,745 - INFO -  * Restarting with stat
+ 2019-06-29 17:45:10,578 - WARNING -  * Debugger is active!
+ 2019-06-29 17:45:10,599 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:45:10,627 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:46:16,794 - INFO -  * Restarting with stat
+ 2019-06-29 17:46:17,880 - WARNING -  * Debugger is active!
+ 2019-06-29 17:46:17,899 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:46:17,911 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:46:40,244 - INFO -  * Restarting with stat
+ 2019-06-29 17:46:51,263 - WARNING -  * Debugger is active!
+ 2019-06-29 17:46:51,288 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:46:51,313 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:47:04,145 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?username=666&password=777 HTTP/1.1" 500 -
+ 2019-06-29 17:47:04,203 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 17:47:04,217 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 17:47:04,229 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 17:47:04,440 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 17:47:04,502 - INFO - 127.0.0.1 - - [29/Jun/2019 17:47:04] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 17:53:08,631 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:08] "GET /login?username=666&password=777 HTTP/1.1" 500 -
+ 2019-06-29 17:53:08,685 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 17:53:08,689 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 17:53:08,712 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 17:53:08,755 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:08] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 17:53:09,402 - INFO - 127.0.0.1 - - [29/Jun/2019 17:53:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 17:54:31,834 - INFO -  * Restarting with stat
+ 2019-06-29 17:54:33,666 - WARNING -  * Debugger is active!
+ 2019-06-29 17:54:33,688 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:54:33,710 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:54:48,152 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?username=666&password=777 HTTP/1.1" 500 -
+ 2019-06-29 17:54:48,205 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 17:54:48,238 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 17:54:48,243 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 17:54:48,355 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 17:54:48,382 - INFO - 127.0.0.1 - - [29/Jun/2019 17:54:48] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 17:56:50,515 - INFO -  * Restarting with stat
+ 2019-06-29 17:56:52,360 - WARNING -  * Debugger is active!
+ 2019-06-29 17:56:52,381 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 17:56:52,403 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 17:57:07,204 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 17:57:07,357 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 17:57:13,966 - INFO - 127.0.0.1 - - [29/Jun/2019 17:57:13] "GET /login?username=666&password=777 HTTP/1.1" 200 -
+ 2019-06-29 17:57:35,366 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 17:57:35,683 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 17:57:45,372 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 17:57:45,376 - INFO - 127.0.0.1 - - [29/Jun/2019 17:57:45] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:01:58,168 - INFO -  * Restarting with stat
+ 2019-06-29 18:01:59,240 - WARNING -  * Debugger is active!
+ 2019-06-29 18:01:59,258 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:01:59,270 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:02:12,129 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:02:12,177 - INFO - 127.0.0.1 - - [29/Jun/2019 18:02:12] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:03:01,491 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:03:01,624 - INFO - 127.0.0.1 - - [29/Jun/2019 18:03:01] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:03:15,011 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:03:15,140 - INFO - 127.0.0.1 - - [29/Jun/2019 18:03:15] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:03:40,672 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:03:58,652 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:04:31,304 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:04:31,351 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 18:04:39,004 - INFO -  * Restarting with stat
+ 2019-06-29 18:04:40,243 - WARNING -  * Debugger is active!
+ 2019-06-29 18:04:40,262 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:04:40,275 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:04:49,345 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:04:49,399 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 18:04:55,123 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 18:04:57,128 - INFO - 127.0.0.1 - - [29/Jun/2019 18:04:57] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:05:19,819 - INFO -  * Detected change in 'D:\\ÏîÄ¿\\qcc_test\\main.py', reloading
+ 2019-06-29 18:05:19,904 - INFO -  * Restarting with stat
+ 2019-06-29 18:05:21,010 - WARNING -  * Debugger is active!
+ 2019-06-29 18:05:21,028 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:05:21,041 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:05:27,668 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 18:05:27,726 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 18:05:34,545 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 18:05:36,310 - INFO - 127.0.0.1 - - [29/Jun/2019 18:05:36] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 18:11:10,751 - INFO -  * Detected change in 'D:\\ÏîÄ¿\\qcc_test\\main.py', reloading
+ 2019-06-29 18:11:10,819 - INFO -  * Restarting with stat
+ 2019-06-29 18:30:47,021 - INFO -  * Restarting with stat
+ 2019-06-29 18:30:50,049 - WARNING -  * Debugger is active!
+ 2019-06-29 18:30:50,069 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:30:50,077 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:31:01,004 - INFO -  * Restarting with stat
+ 2019-06-29 18:31:04,070 - WARNING -  * Debugger is active!
+ 2019-06-29 18:31:04,088 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:31:04,096 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:36:11,865 - INFO -  * Restarting with stat
+ 2019-06-29 18:36:14,958 - WARNING -  * Debugger is active!
+ 2019-06-29 18:36:14,977 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:36:14,985 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:37:13,086 - INFO -  * Restarting with stat
+ 2019-06-29 18:37:16,151 - WARNING -  * Debugger is active!
+ 2019-06-29 18:37:16,170 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:37:16,178 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:38:39,024 - INFO -  * Restarting with stat
+ 2019-06-29 18:38:42,105 - WARNING -  * Debugger is active!
+ 2019-06-29 18:38:42,123 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:38:42,132 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:39:17,288 - INFO -  * Restarting with stat
+ 2019-06-29 18:39:31,001 - WARNING -  * Debugger is active!
+ 2019-06-29 18:39:31,023 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:39:31,036 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:40:10,254 - INFO -  * Restarting with stat
+ 2019-06-29 18:40:13,303 - WARNING -  * Debugger is active!
+ 2019-06-29 18:40:13,322 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:40:13,330 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:41:20,927 - INFO -  * Restarting with stat
+ 2019-06-29 18:41:27,620 - WARNING -  * Debugger is active!
+ 2019-06-29 18:41:27,638 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:41:27,645 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:42:51,572 - INFO -  * Restarting with stat
+ 2019-06-29 18:42:57,326 - WARNING -  * Debugger is active!
+ 2019-06-29 18:42:57,345 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:42:57,353 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:44:36,240 - INFO -  * Restarting with stat
+ 2019-06-29 18:44:37,298 - WARNING -  * Debugger is active!
+ 2019-06-29 18:44:37,317 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:44:37,329 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:44:49,076 - INFO -  * Restarting with stat
+ 2019-06-29 18:44:50,186 - WARNING -  * Debugger is active!
+ 2019-06-29 18:44:50,206 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:44:50,218 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:45:20,085 - INFO -  * Restarting with stat
+ 2019-06-29 18:47:36,363 - INFO -  * Restarting with stat
+ 2019-06-29 18:47:37,468 - WARNING -  * Debugger is active!
+ 2019-06-29 18:47:37,487 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:47:37,499 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:47:40,264 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 18:47:40,319 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 18:47:40,324 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 18:47:40,334 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 18:47:40,453 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 18:47:40,487 - INFO - 127.0.0.1 - - [29/Jun/2019 18:47:40] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 18:48:35,201 - INFO -  * Restarting with stat
+ 2019-06-29 18:48:41,600 - WARNING -  * Debugger is active!
+ 2019-06-29 18:48:41,619 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:48:41,626 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:48:53,191 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 18:48:53,220 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 18:48:53,227 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 18:48:53,235 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 18:48:53,322 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 18:48:53,326 - INFO - 127.0.0.1 - - [29/Jun/2019 18:48:53] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 18:49:43,974 - INFO -  * Restarting with stat
+ 2019-06-29 18:49:55,157 - WARNING -  * Debugger is active!
+ 2019-06-29 18:49:55,178 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:49:55,192 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:50:07,993 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:07] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 18:50:08,044 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 18:50:08,055 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 18:50:08,068 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 18:50:08,171 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:08] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 18:50:08,184 - INFO - 127.0.0.1 - - [29/Jun/2019 18:50:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 18:52:59,722 - INFO -  * Restarting with stat
+ 2019-06-29 18:53:05,879 - WARNING -  * Debugger is active!
+ 2019-06-29 18:53:05,901 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:53:05,908 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:53:08,779 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 18:53:08,806 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 18:53:08,810 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 18:53:08,817 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 18:53:08,901 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 18:53:08,924 - INFO - 127.0.0.1 - - [29/Jun/2019 18:53:08] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 18:55:29,912 - INFO -  * Restarting with stat
+ 2019-06-29 18:55:36,210 - WARNING -  * Debugger is active!
+ 2019-06-29 18:55:36,232 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 18:55:36,240 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:55:40,341 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 18:55:40,387 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 18:55:40,405 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 18:55:40,407 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 18:55:40,545 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 18:55:40,553 - INFO - 127.0.0.1 - - [29/Jun/2019 18:55:40] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 18:56:20,943 - INFO -  * Restarting with stat
+ 2019-06-29 18:56:56,454 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:59:27,893 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 18:59:49,711 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:01:48,278 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:01:56,559 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 55, in simulated_login
+    task = asyncio.ensure_future(login(pyppeteer_manager.page, username, password))
+AttributeError: module 'pyppeteer_manager' has no attribute 'page'
+ 2019-06-29 19:01:57,319 - INFO - 127.0.0.1 - - [29/Jun/2019 19:01:57] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:03:12,865 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:04:01,628 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 55, in simulated_login
+    task = asyncio.ensure_future(login(puppeteer_manager.page, username, password))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 518, in ensure_future
+    loop = events.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-10'.
+ 2019-06-29 19:04:01,641 - INFO - 127.0.0.1 - - [29/Jun/2019 19:04:01] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:04:21,323 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:04:27,634 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 54, in simulated_login
+    loop = asyncio.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-6'.
+ 2019-06-29 19:04:27,649 - INFO - 127.0.0.1 - - [29/Jun/2019 19:04:27] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:05:10,185 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:05:14,901 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 55, in simulated_login
+    task = asyncio.ensure_future(login(puppeteer_manager.page, username, password))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 518, in ensure_future
+    loop = events.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-2'.
+ 2019-06-29 19:05:14,906 - INFO - 127.0.0.1 - - [29/Jun/2019 19:05:14] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:06:34,346 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:06:36,464 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 55, in simulated_login
+    task = asyncio.ensure_future(login1(puppeteer_manager.page, username, password))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 518, in ensure_future
+    loop = events.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-1'.
+ 2019-06-29 19:06:36,469 - INFO - 127.0.0.1 - - [29/Jun/2019 19:06:36] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:07:09,059 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:07:24,755 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 54, in simulated_login
+    loop = asyncio.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-1'.
+ 2019-06-29 19:07:24,759 - INFO - 127.0.0.1 - - [29/Jun/2019 19:07:24] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:09:09,447 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:09:13,287 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 25, in force_type
+    return super(JsonResponse, cls).force_type(response, environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1835, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1850, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2001, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 25, in force_type
+    return super(JsonResponse, cls).force_type(response, environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a coroutine.
+ 2019-06-29 19:09:13,291 - INFO - 127.0.0.1 - - [29/Jun/2019 19:09:13] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:09:37,957 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:09:40,863 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 25, in force_type
+    return super(JsonResponse, cls).force_type(response, environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1835, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1850, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2001, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 25, in force_type
+    return super(JsonResponse, cls).force_type(response, environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a coroutine.
+ 2019-06-29 19:09:40,867 - INFO - 127.0.0.1 - - [29/Jun/2019 19:09:40] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:11:13,752 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:11:15,009 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1835, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1850, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2001, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a coroutine.
+ 2019-06-29 19:11:15,015 - INFO - 127.0.0.1 - - [29/Jun/2019 19:11:15] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:12:51,692 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:12:59,925 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1835, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1850, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2001, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a coroutine.
+ 2019-06-29 19:12:59,929 - INFO - 127.0.0.1 - - [29/Jun/2019 19:12:59] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:14:41,593 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:14:45,820 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1835, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1850, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2001, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1993, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'coroutine' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a coroutine.
+ 2019-06-29 19:14:45,823 - INFO - 127.0.0.1 - - [29/Jun/2019 19:14:45] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:15:07,255 - INFO -  * Restarting with stat
+ 2019-06-29 19:15:10,149 - WARNING -  * Debugger is active!
+ 2019-06-29 19:15:10,168 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:15:10,176 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:15:21,937 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:21] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:15:21,968 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:21] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:15:21,975 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:21] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:15:21,980 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:21] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:15:22,183 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:22] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:15:22,236 - INFO - 127.0.0.1 - - [29/Jun/2019 19:15:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:16:58,722 - INFO -  * Restarting with stat
+ 2019-06-29 19:17:01,811 - WARNING -  * Debugger is active!
+ 2019-06-29 19:17:01,832 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:17:01,840 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:17:04,775 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:17:04,806 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:17:04,811 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:17:04,823 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:17:04,910 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:17:04,917 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:04] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:17:42,684 - INFO -  * Restarting with stat
+ 2019-06-29 19:17:46,344 - WARNING -  * Debugger is active!
+ 2019-06-29 19:17:46,366 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:17:46,378 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:17:48,404 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:17:48,444 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:17:48,459 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:17:48,470 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:17:48,538 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:17:48,551 - INFO - 127.0.0.1 - - [29/Jun/2019 19:17:48] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:18:13,253 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:18:13,309 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:18:13,328 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:18:13,332 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:18:13,407 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:18:13,439 - INFO - 127.0.0.1 - - [29/Jun/2019 19:18:13] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:19:35,987 - INFO -  * Restarting with stat
+ 2019-06-29 19:19:40,039 - WARNING -  * Debugger is active!
+ 2019-06-29 19:19:40,060 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:19:40,072 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:20:20,434 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:20:20,504 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:20:20,543 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:20:20,547 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:20:20,674 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:20:20,690 - INFO - 127.0.0.1 - - [29/Jun/2019 19:20:20] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:21:18,871 - INFO -  * Restarting with stat
+ 2019-06-29 19:21:21,540 - WARNING -  * Debugger is active!
+ 2019-06-29 19:21:21,558 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:21:21,567 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:21:27,089 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:21:27,124 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:21:27,126 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:21:27,134 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:21:27,262 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:21:27,278 - INFO - 127.0.0.1 - - [29/Jun/2019 19:21:27] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:22:45,620 - INFO -  * Restarting with stat
+ 2019-06-29 19:22:48,296 - WARNING -  * Debugger is active!
+ 2019-06-29 19:22:48,314 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:22:48,322 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:22:57,666 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:22:57,691 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:22:57,696 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:22:57,702 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:22:57,782 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:22:57,809 - INFO - 127.0.0.1 - - [29/Jun/2019 19:22:57] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:24:40,509 - INFO -  * Restarting with stat
+ 2019-06-29 19:24:43,117 - WARNING -  * Debugger is active!
+ 2019-06-29 19:24:43,136 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:24:43,144 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:24:46,227 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:24:46,255 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-29 19:24:46,259 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-29 19:24:46,267 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-29 19:24:46,359 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-29 19:24:46,391 - INFO - 127.0.0.1 - - [29/Jun/2019 19:24:46] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-29 19:25:41,691 - INFO -  * Restarting with stat
+ 2019-06-29 19:25:44,523 - WARNING -  * Debugger is active!
+ 2019-06-29 19:25:44,543 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:25:44,551 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:25:45,058 - INFO - 127.0.0.1 - - [29/Jun/2019 19:25:45] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:26:31,303 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:26:51,310 - INFO - 127.0.0.1 - - [29/Jun/2019 19:26:51] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:30:03,445 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:30:23,092 - INFO - 127.0.0.1 - - [29/Jun/2019 19:30:23] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:32:10,937 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:32:27,601 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:32:27,638 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:32:36,428 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 19:32:36,428 - INFO - 127.0.0.1 - - [29/Jun/2019 19:32:36] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:35:54,929 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:36:05,522 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:36:05,559 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:36:11,641 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 19:36:13,470 - INFO - 127.0.0.1 - - [29/Jun/2019 19:36:13] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:36:53,271 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:37:02,851 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/ÏîÄ¿/qcc_test/main.py", line 53, in simulated_login
+    loop = asyncio.get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 694, in get_event_loop
+    return get_event_loop_policy().get_event_loop()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\events.py", line 602, in get_event_loop
+    % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'Thread-1'.
+ 2019-06-29 19:37:02,855 - INFO - 127.0.0.1 - - [29/Jun/2019 19:37:02] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-29 19:37:22,157 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:37:25,775 - INFO - 127.0.0.1 - - [29/Jun/2019 19:37:25] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:38:13,300 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:38:17,290 - INFO - 127.0.0.1 - - [29/Jun/2019 19:38:17] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:39:04,777 - INFO -  * Restarting with stat
+ 2019-06-29 19:39:05,878 - WARNING -  * Debugger is active!
+ 2019-06-29 19:39:05,897 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:39:05,909 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:39:13,002 - INFO - 127.0.0.1 - - [29/Jun/2019 19:39:13] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:40:24,046 - INFO -  * Restarting with stat
+ 2019-06-29 19:40:25,886 - WARNING -  * Debugger is active!
+ 2019-06-29 19:40:25,907 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:40:25,929 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:41:22,548 - INFO - 127.0.0.1 - - [29/Jun/2019 19:41:22] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:42:22,423 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:44:30,204 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:47:57,110 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:48:05,746 - INFO - 127.0.0.1 - - [29/Jun/2019 19:48:05] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:49:50,634 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:50:05,071 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:50:05,126 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:50:13,216 - INFO - 127.0.0.1 - - [29/Jun/2019 19:50:13] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:50:23,493 - INFO - 127.0.0.1 - - [29/Jun/2019 19:50:23] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:50:41,885 - INFO - 127.0.0.1 - - [29/Jun/2019 19:50:41] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:51:22,676 - INFO -  * Restarting with stat
+ 2019-06-29 19:51:23,918 - WARNING -  * Debugger is active!
+ 2019-06-29 19:51:23,938 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:51:23,950 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:51:36,616 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:51:36,656 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:51:44,765 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 19:51:44,766 - INFO - 127.0.0.1 - - [29/Jun/2019 19:51:44] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:52:00,436 - INFO - 127.0.0.1 - - [29/Jun/2019 19:52:00] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:52:36,782 - INFO -  * Restarting with stat
+ 2019-06-29 19:52:39,244 - WARNING -  * Debugger is active!
+ 2019-06-29 19:52:39,267 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:52:39,290 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:52:52,368 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:52:52,469 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:53:00,744 - INFO - 127.0.0.1 - - [29/Jun/2019 19:53:00] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:54:10,214 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:54:10,260 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:54:23,987 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:54:24,038 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:57:38,232 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:57:38,272 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:58:21,682 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:58:21,730 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:58:29,658 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 19:58:46,132 - INFO -  * Restarting with stat
+ 2019-06-29 19:58:47,224 - WARNING -  * Debugger is active!
+ 2019-06-29 19:58:47,243 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:58:47,255 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 19:58:53,766 - INFO - 127.0.0.1 - - [29/Jun/2019 19:58:53] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:58:56,319 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 19:58:56,365 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 19:59:04,169 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 19:59:04,169 - INFO - 127.0.0.1 - - [29/Jun/2019 19:59:04] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:59:07,274 - INFO - 127.0.0.1 - - [29/Jun/2019 19:59:07] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:59:09,810 - INFO - 127.0.0.1 - - [29/Jun/2019 19:59:09] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 19:59:46,776 - INFO -  * Restarting with stat
+ 2019-06-29 19:59:49,091 - WARNING -  * Debugger is active!
+ 2019-06-29 19:59:49,117 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 19:59:49,150 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:00:01,415 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:00:01,516 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:02:31,569 - INFO -  * Restarting with stat
+ 2019-06-29 20:02:32,713 - WARNING -  * Debugger is active!
+ 2019-06-29 20:02:32,732 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:02:32,743 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:02:36,801 - INFO - 127.0.0.1 - - [29/Jun/2019 20:02:36] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:13:51,734 - INFO -  * Restarting with stat
+ 2019-06-29 20:13:52,859 - WARNING -  * Debugger is active!
+ 2019-06-29 20:13:52,879 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:13:52,891 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:14:20,708 - INFO - 127.0.0.1 - - [29/Jun/2019 20:14:20] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:14:40,889 - INFO -  * Restarting with stat
+ 2019-06-29 20:14:42,003 - WARNING -  * Debugger is active!
+ 2019-06-29 20:14:42,021 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:14:42,033 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:14:52,700 - INFO - 127.0.0.1 - - [29/Jun/2019 20:14:52] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:14:59,950 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:15:00,066 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:15:00,908 - INFO - 127.0.0.1 - - [29/Jun/2019 20:15:00] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:15:22,623 - INFO -  * Restarting with stat
+ 2019-06-29 20:15:24,977 - WARNING -  * Debugger is active!
+ 2019-06-29 20:15:25,003 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:15:25,029 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:15:50,098 - INFO - 127.0.0.1 - - [29/Jun/2019 20:15:50] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:16:06,064 - INFO - 127.0.0.1 - - [29/Jun/2019 20:16:06] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:17:22,233 - WARNING - Unexpected exception in keepalive ping task
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 989, in keepalive_ping
+    ping_waiter, self.ping_timeout, loop=self.loop
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 358, in wait_for
+    return fut.result()
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+ 2019-06-29 20:17:22,250 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Connection._async_send() done, defined at C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py:69> exception=InvalidStateError('invalid state',)>
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 73, in _async_send
+    await self.connection.send(msg)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 462, in send
+    yield from self.ensure_open()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 646, in ensure_open
+    ) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 79, in _async_send
+    await self.dispose()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 170, in dispose
+    await self._on_close()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 153, in _on_close
+    f'Protocol error {cb.method}: Target closed.',  # type: ignore
+asyncio.base_futures.InvalidStateError: invalid state
+ 2019-06-29 20:20:03,785 - INFO -  * Restarting with stat
+ 2019-06-29 20:20:05,733 - WARNING -  * Debugger is active!
+ 2019-06-29 20:20:05,758 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:20:05,775 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:20:06,379 - INFO - 127.0.0.1 - - [29/Jun/2019 20:20:06] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:20:13,919 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:20:13,977 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:20:40,516 - INFO - 127.0.0.1 - - [29/Jun/2019 20:20:40] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:24:44,627 - INFO -  * Restarting with stat
+ 2019-06-29 20:24:46,447 - WARNING -  * Debugger is active!
+ 2019-06-29 20:24:46,468 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:24:46,489 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:24:49,483 - INFO - 127.0.0.1 - - [29/Jun/2019 20:24:49] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:26:10,772 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:26:10,856 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:26:16,460 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 20:26:18,621 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 20:26:27,798 - INFO - 127.0.0.1 - - [29/Jun/2019 20:26:27] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:27:48,530 - INFO -  * Restarting with stat
+ 2019-06-29 20:27:49,626 - WARNING -  * Debugger is active!
+ 2019-06-29 20:27:49,644 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:27:49,656 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:27:53,014 - INFO - 127.0.0.1 - - [29/Jun/2019 20:27:53] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:28:04,185 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:28:04,253 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:28:08,730 - INFO - 127.0.0.1 - - [29/Jun/2019 20:28:08] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-29 20:28:11,639 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 20:28:14,093 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 20:31:05,414 - INFO -  * Restarting with stat
+ 2019-06-29 20:31:06,506 - WARNING -  * Debugger is active!
+ 2019-06-29 20:31:06,524 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-29 20:31:06,535 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-29 20:31:52,798 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:31:52,844 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:31:58,910 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 20:32:01,388 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 20:32:26,063 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 20:32:26,107 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 20:32:32,869 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 20:32:34,730 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 21:01:40,450 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 21:01:40,501 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 21:02:51,750 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 21:02:51,793 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 21:03:01,980 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 21:03:04,031 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 21:04:45,588 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 21:04:45,662 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 21:05:15,715 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Connection._async_send() done, defined at C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py:69> exception=InvalidStateError('invalid state',)>
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 73, in _async_send
+    await self.connection.send(msg)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 467, in send
+    yield from self.write_frame(True, OP_TEXT, data.encode('utf-8'))
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 919, in write_frame
+    yield from self.ensure_open()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 646, in ensure_open
+    ) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 79, in _async_send
+    await self.dispose()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 170, in dispose
+    await self._on_close()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 153, in _on_close
+    f'Protocol error {cb.method}: Target closed.',  # type: ignore
+asyncio.base_futures.InvalidStateError: invalid state
+ 2019-06-29 21:05:18,612 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 21:05:18,781 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error Target.sendMessageToTarget: Target closed.',)>
+pyppeteer.errors.NetworkError: Protocol error Target.sendMessageToTarget: Target closed.
+ 2019-06-29 21:05:42,064 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 21:05:42,165 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 21:08:32,528 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 21:08:32,610 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:40:20,135 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:40:20,237 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:40:30,292 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 23:41:52,214 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:41:52,267 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:42:02,705 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 23:42:05,062 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 23:42:40,109 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:42:40,155 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:42:45,263 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 23:42:47,762 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 23:46:48,062 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:46:48,108 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:46:53,352 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 23:47:54,292 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:47:54,341 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:48:02,596 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 23:48:14,602 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:48:14,653 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:49:26,385 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:49:26,432 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:49:33,778 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-29 23:49:55,730 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:49:55,777 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:50:01,022 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-29 23:50:39,094 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:50:39,142 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:51:19,823 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:51:19,874 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:58:53,084 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:58:53,128 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-29 23:59:22,794 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-29 23:59:22,841 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 00:55:18,195 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 00:55:18,298 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 00:56:04,698 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 00:56:04,747 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 00:56:10,079 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 00:57:29,302 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 00:57:29,358 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 00:57:34,772 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 01:16:59,441 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Singleton.get_browser() done, defined at D:/ÏîÄ¿/qcc_test\aa.py:47> exception=BrowserError('Browser closed unexpectedly:\n',)>
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test\aa.py", line 48, in get_browser
+    _browser = await launch(self.launch_kwargs)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 313, in launch
+    return await Launcher(options, **kwargs).launch()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 189, in launch
+    self.browserWSEndpoint = self._get_ws_endpoint()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 234, in _get_ws_endpoint
+    self.proc.stdout.read().decode()
+pyppeteer.errors.BrowserError: Browser closed unexpectedly:
+
+ 2019-06-30 01:17:05,212 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Singleton.get_browser() done, defined at D:/ÏîÄ¿/qcc_test\aa.py:47> exception=BrowserError('Browser closed unexpectedly:\n',)>
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test\aa.py", line 48, in get_browser
+    _browser = await launch(self.launch_kwargs)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 313, in launch
+    return await Launcher(options, **kwargs).launch()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 189, in launch
+    self.browserWSEndpoint = self._get_ws_endpoint()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 234, in _get_ws_endpoint
+    self.proc.stdout.read().decode()
+pyppeteer.errors.BrowserError: Browser closed unexpectedly:
+
+ 2019-06-30 01:17:05,225 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Connection._async_send() done, defined at C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py:69> exception=InvalidStateError('invalid state',)>
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 674, in transfer_data
+    message = yield from self.read_message()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 742, in read_message
+    frame = yield from self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 815, in read_data_frame
+    frame = yield from self.read_frame(max_size)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 884, in read_frame
+    extensions=self.extensions,
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\framing.py", line 99, in read
+    data = yield from reader(2)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\streams.py", line 672, in readexactly
+    raise IncompleteReadError(incomplete, n)
+asyncio.streams.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 73, in _async_send
+    await self.connection.send(msg)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 462, in send
+    yield from self.ensure_open()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 646, in ensure_open
+    ) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 79, in _async_send
+    await self.dispose()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 170, in dispose
+    await self._on_close()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 153, in _on_close
+    f'Protocol error {cb.method}: Target closed.',  # type: ignore
+asyncio.base_futures.InvalidStateError: invalid state
+ 2019-06-30 01:25:23,879 - INFO -  * Restarting with stat
+ 2019-06-30 01:26:56,471 - INFO -  * Restarting with stat
+ 2019-06-30 01:26:57,565 - WARNING -  * Debugger is active!
+ 2019-06-30 01:26:57,591 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 01:26:57,604 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 01:27:19,698 - INFO - 127.0.0.1 - - [30/Jun/2019 01:27:19] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:27:27,718 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:27:27,775 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:27:30,746 - INFO - 127.0.0.1 - - [30/Jun/2019 01:27:30] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:27:33,973 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 01:27:36,440 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-30 01:27:41,944 - INFO - 127.0.0.1 - - [30/Jun/2019 01:27:41] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:29:51,465 - INFO -  * Restarting with stat
+ 2019-06-30 01:29:52,869 - WARNING -  * Debugger is active!
+ 2019-06-30 01:29:52,890 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 01:29:52,905 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 01:30:04,842 - INFO - 127.0.0.1 - - [30/Jun/2019 01:30:04] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:30:07,813 - INFO - 127.0.0.1 - - [30/Jun/2019 01:30:07] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:30:10,205 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:30:10,266 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:30:15,332 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 01:30:41,885 - INFO -  * Restarting with stat
+ 2019-06-30 01:30:43,018 - WARNING -  * Debugger is active!
+ 2019-06-30 01:30:43,037 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 01:30:43,049 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 01:30:44,511 - INFO - 127.0.0.1 - - [30/Jun/2019 01:30:44] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 01:32:57,504 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:32:57,546 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:33:02,743 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 01:46:22,312 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:46:22,360 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:46:35,002 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:46:35,020 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error Runtime.callFunctionOn: Target closed.',)>
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\frame_manager.py", line 859, in rerun
+    *self._args,
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\execution_context.py", line 109, in evaluateHandle
+    _rewriteError(e)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\execution_context.py", line 239, in _rewriteError
+    raise error
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\execution_context.py", line 106, in evaluateHandle
+    'userGesture': True,
+pyppeteer.errors.NetworkError: Protocol error Runtime.callFunctionOn: Target closed.
+ 2019-06-30 01:47:41,919 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:47:41,956 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:47:51,183 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 01:47:51,243 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 01:47:56,174 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 01:53:11,310 - WARNING - Unexpected exception in keepalive ping task
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 989, in keepalive_ping
+    ping_waiter, self.ping_timeout, loop=self.loop
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 358, in wait_for
+    return fut.result()
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+ 2019-06-30 01:53:11,448 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<Connection._async_send() done, defined at C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py:69> exception=InvalidStateError('invalid state',)>
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 73, in _async_send
+    await self.connection.send(msg)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 462, in send
+    yield from self.ensure_open()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 646, in ensure_open
+    ) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006 (connection closed abnormally [internal]), no reason
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 79, in _async_send
+    await self.dispose()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 170, in dispose
+    await self._on_close()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\connection.py", line 153, in _on_close
+    f'Protocol error {cb.method}: Target closed.',  # type: ignore
+asyncio.base_futures.InvalidStateError: invalid state
+ 2019-06-30 02:06:48,221 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<login() done, defined at D:/ÏîÄ¿/qcc_test/login.py:162> exception=UnboundLocalError("local variable 'browser' referenced before assignment",)>
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test/login.py", line 167, in login
+    browser = await launch(launch_kwargs)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 313, in launch
+    return await Launcher(options, **kwargs).launch()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 189, in launch
+    self.browserWSEndpoint = self._get_ws_endpoint()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 231, in _get_ws_endpoint
+    print(self.proc.stdout.read())
+AttributeError: 'NoneType' object has no attribute 'read'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test/login.py", line 255, in login
+    await browser.close()
+UnboundLocalError: local variable 'browser' referenced before assignment
+ 2019-06-30 02:07:07,909 - ERROR - Task exception was never retrieved
+future: <Task finished coro=<login() done, defined at D:/ÏîÄ¿/qcc_test/login.py:162> exception=UnboundLocalError("local variable 'browser' referenced before assignment",)>
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test/login.py", line 167, in login
+    browser = await launch(launch_kwargs)
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 313, in launch
+    return await Launcher(options, **kwargs).launch()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 189, in launch
+    self.browserWSEndpoint = self._get_ws_endpoint()
+  File "C:\Users\CN\AppData\Local\Programs\Python\Python36\lib\site-packages\pyppeteer\launcher.py", line 231, in _get_ws_endpoint
+    print(self.proc.stdout.read())
+AttributeError: 'NoneType' object has no attribute 'read'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/ÏîÄ¿/qcc_test/login.py", line 255, in login
+    await browser.close()
+UnboundLocalError: local variable 'browser' referenced before assignment
+ 2019-06-30 02:08:12,085 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error Target.sendMessageToTarget: Target closed.',)>
+pyppeteer.errors.NetworkError: Protocol error Target.sendMessageToTarget: Target closed.
+ 2019-06-30 02:08:16,229 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 02:08:16,329 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 02:08:37,708 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 02:08:37,770 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 02:08:43,006 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 02:08:48,497 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 02:08:48,580 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 02:09:36,907 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 02:09:36,947 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 02:09:42,053 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 02:09:47,746 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 02:09:47,819 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 02:09:53,274 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 11:21:50,565 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:21:50,682 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:21:56,200 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 11:22:04,012 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:22:04,085 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:24:47,189 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:24:47,260 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:24:51,785 - INFO -  * Restarting with stat
+ 2019-06-30 11:24:53,196 - WARNING -  * Debugger is active!
+ 2019-06-30 11:24:53,217 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:24:53,236 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:25:17,381 - INFO - 127.0.0.1 - - [30/Jun/2019 11:25:17] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:25:17,565 - INFO - 127.0.0.1 - - [30/Jun/2019 11:25:17] "GET /favicon.ico HTTP/1.1" 404 -
+ 2019-06-30 11:26:05,933 - INFO -  * Restarting with stat
+ 2019-06-30 11:26:06,999 - WARNING -  * Debugger is active!
+ 2019-06-30 11:26:07,017 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:26:07,029 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:26:08,611 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:26:08,638 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:26:08,645 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:26:08,649 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:26:08,813 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:26:08,844 - INFO - 127.0.0.1 - - [30/Jun/2019 11:26:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:32:19,536 - INFO -  * Restarting with stat
+ 2019-06-30 11:32:20,631 - WARNING -  * Debugger is active!
+ 2019-06-30 11:32:20,650 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:32:20,663 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:32:25,954 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:25] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:32:26,036 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:26] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:32:26,037 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:26] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:32:26,038 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:26] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:32:26,124 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:26] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:32:26,136 - INFO - 127.0.0.1 - - [30/Jun/2019 11:32:26] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:32:59,585 - INFO -  * Restarting with stat
+ 2019-06-30 11:33:00,651 - WARNING -  * Debugger is active!
+ 2019-06-30 11:33:00,670 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:33:00,683 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:33:05,795 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:33:05,823 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:33:05,826 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:33:05,830 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:33:05,915 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:33:05,919 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:05] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:33:52,188 - INFO -  * Restarting with stat
+ 2019-06-30 11:33:53,249 - WARNING -  * Debugger is active!
+ 2019-06-30 11:33:53,268 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:33:53,280 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:33:54,365 - INFO - 127.0.0.1 - - [30/Jun/2019 11:33:54] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:34:30,648 - INFO -  * Restarting with stat
+ 2019-06-30 11:34:31,699 - WARNING -  * Debugger is active!
+ 2019-06-30 11:34:31,717 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:34:31,729 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:34:33,193 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:34:33,217 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:34:33,221 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:34:33,229 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:34:33,307 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:34:33,336 - INFO - 127.0.0.1 - - [30/Jun/2019 11:34:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:35:03,677 - INFO -  * Restarting with stat
+ 2019-06-30 11:35:04,714 - WARNING -  * Debugger is active!
+ 2019-06-30 11:35:04,813 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:35:04,825 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:35:06,538 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:35:06,567 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:35:06,575 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:35:06,576 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:35:06,650 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:35:06,656 - INFO - 127.0.0.1 - - [30/Jun/2019 11:35:06] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:36:05,111 - INFO -  * Restarting with stat
+ 2019-06-30 11:36:06,184 - WARNING -  * Debugger is active!
+ 2019-06-30 11:36:06,203 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:36:06,216 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:36:06,881 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:36:06,907 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:36:06,913 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:36:06,915 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:36:06,993 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:36:06,996 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:06] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:36:18,271 - INFO -  * Restarting with stat
+ 2019-06-30 11:36:19,320 - WARNING -  * Debugger is active!
+ 2019-06-30 11:36:19,337 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:36:19,349 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:36:20,372 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:36:20,399 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:36:20,402 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:36:20,405 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:36:20,493 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:36:20,502 - INFO - 127.0.0.1 - - [30/Jun/2019 11:36:20] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:41:38,937 - INFO -  * Restarting with stat
+ 2019-06-30 11:41:40,001 - WARNING -  * Debugger is active!
+ 2019-06-30 11:41:40,020 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:41:40,032 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:41:54,566 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:41:54,608 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:42:00,391 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 11:42:00,974 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:00] "GET /login?username=18779861934&password=chenning HTTP/1.1" 500 -
+ 2019-06-30 11:42:01,007 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:01] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2019-06-30 11:42:01,015 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:01] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+ 2019-06-30 11:42:01,016 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:01] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2019-06-30 11:42:01,107 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:01] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ 2019-06-30 11:42:01,118 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:01] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2019-06-30 11:42:02,410 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:02] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:42:41,276 - INFO -  * Restarting with stat
+ 2019-06-30 11:42:42,315 - WARNING -  * Debugger is active!
+ 2019-06-30 11:42:42,334 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:42:42,346 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:42:45,705 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:45] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:42:49,268 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:42:49,302 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:42:53,781 - INFO - 127.0.0.1 - - [30/Jun/2019 11:42:53] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:42:55,078 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 11:42:58,082 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
+ 2019-06-30 11:43:29,319 - INFO -  * Restarting with stat
+ 2019-06-30 11:43:30,891 - WARNING -  * Debugger is active!
+ 2019-06-30 11:43:30,910 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:43:30,921 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:43:32,156 - INFO - 127.0.0.1 - - [30/Jun/2019 11:43:32] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:43:35,470 - INFO - 127.0.0.1 - - [30/Jun/2019 11:43:35] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:43:37,772 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:43:37,819 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:43:58,275 - INFO - 127.0.0.1 - - [30/Jun/2019 11:43:58] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:01,049 - INFO - 127.0.0.1 - - [30/Jun/2019 11:44:01] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:02,463 - INFO - 127.0.0.1 - - [30/Jun/2019 11:44:02] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:03,664 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:44:03,702 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:44:04,182 - INFO - 127.0.0.1 - - [30/Jun/2019 11:44:04] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:05,847 - INFO - 127.0.0.1 - - [30/Jun/2019 11:44:05] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:07,942 - INFO - 127.0.0.1 - - [30/Jun/2019 11:44:07] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:44:45,402 - INFO -  * Restarting with stat
+ 2019-06-30 11:44:46,465 - WARNING -  * Debugger is active!
+ 2019-06-30 11:44:46,483 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:44:46,495 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:45:00,312 - INFO - 127.0.0.1 - - [30/Jun/2019 11:45:00] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:45:05,158 - INFO - 127.0.0.1 - - [30/Jun/2019 11:45:05] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:45:06,686 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:45:06,729 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:46:13,932 - INFO -  * Restarting with stat
+ 2019-06-30 11:46:14,956 - WARNING -  * Debugger is active!
+ 2019-06-30 11:46:14,973 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:46:14,985 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:46:19,184 - INFO - 127.0.0.1 - - [30/Jun/2019 11:46:19] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:46:21,294 - INFO - 127.0.0.1 - - [30/Jun/2019 11:46:21] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:46:26,311 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:46:26,358 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:47:29,778 - INFO -  * Restarting with stat
+ 2019-06-30 11:47:30,816 - WARNING -  * Debugger is active!
+ 2019-06-30 11:47:30,834 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:47:30,849 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:47:32,192 - INFO - 127.0.0.1 - - [30/Jun/2019 11:47:32] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:47:34,164 - INFO - 127.0.0.1 - - [30/Jun/2019 11:47:34] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 11:47:39,798 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 11:47:39,863 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 11:47:45,280 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 11:48:30,032 - INFO -  * Restarting with stat
+ 2019-06-30 11:48:31,433 - WARNING -  * Debugger is active!
+ 2019-06-30 11:48:31,462 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 11:48:31,478 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 11:48:31,503 - INFO - 127.0.0.1 - - [30/Jun/2019 11:48:31] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 12:08:56,039 - INFO -  * Detected change in 'C:\\Users\\CN\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\websockets\\__init__.py', reloading
+ 2019-06-30 12:09:39,299 - INFO -  * Restarting with stat
+ 2019-06-30 12:09:40,948 - WARNING -  * Debugger is active!
+ 2019-06-30 12:09:40,978 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 12:09:40,994 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 12:09:41,336 - INFO - 127.0.0.1 - - [30/Jun/2019 12:09:41] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 12:09:43,471 - INFO - 127.0.0.1 - - [30/Jun/2019 12:09:43] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 12:10:02,363 - INFO -  * Restarting with stat
+ 2019-06-30 12:10:03,455 - WARNING -  * Debugger is active!
+ 2019-06-30 12:10:03,474 - INFO -  * Debugger PIN: 154-630-089
+ 2019-06-30 12:10:03,485 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ 2019-06-30 12:10:06,742 - INFO - 127.0.0.1 - - [30/Jun/2019 12:10:06] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 12:10:13,440 - INFO - 1.µã»÷¡¾ÃÜÂëµÇÂ½¡¿
+ 2019-06-30 12:10:13,543 - INFO - 2.ÊäÈë¡¾ÊÖ»úºÅ¡¢ÃÜÂë¡¿
+ 2019-06-30 12:10:17,710 - INFO - 127.0.0.1 - - [30/Jun/2019 12:10:17] "GET /login?username=18779861934&password=chenning HTTP/1.1" 200 -
+ 2019-06-30 12:10:19,902 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NetworkError('Protocol error (Runtime.releaseObject): Cannot find context with specified id',)>
+pyppeteer.errors.NetworkError: Protocol error (Runtime.releaseObject): Cannot find context with specified id
+ 2019-06-30 12:10:22,280 - ERROR - Navigation Timeout Exceeded: 3000 ms exceeded.
