@@ -3,28 +3,58 @@
 
 import asyncio
 
-from pyppeteer import launch, connect
+from pyppeteer import launch
+
+
+async def test(browser):
+    print('连接:', browser)
+    # browser = await connect(browserWSEndpoint=endpoint)
+    print(browser)
+    page = await browser.newPage()
+    await page.goto('http://www.baidu.com')
+    content = await page.content()
+    print(content.replace('\n', ''))
+    # await page.close()
 
 
 async def main() -> None:
-    wsEndpoints = []
-    for i in range(10):
+    browsers = []
+    for i in range(3):
         browser = await launch(headless=False, args=['--no-sandbox'])
         # print(browser.wsEndpoint, flush=True)
-        endpoint = browser.wsEndpoint
+        # endpoint = browser.wsEndpoint
         # browser1 = await connect(browserWSEndpoint=endpoint)
-        wsEndpoints.append(endpoint)
+        browsers.append(browser)
 
-    print(wsEndpoints)
-    for endpoint in wsEndpoints:
-        print('连接:', endpoint)
-        browser = await connect(browserWSEndpoint=endpoint)
-        print(browser)
-        page = await browser.newPage()
-        await page.goto('http://www.baidu.com')
-        await page.close()
-        await browser.close()
+    loop = asyncio.get_event_loop()
+    for browser in browsers:
+        loop.run_until_complete(test(browser))
 
+    # print(browsers)
+    # for browser in browsers:
+    #     print('连接:', browser)
+    #     # browser = await connect(browserWSEndpoint=endpoint)
+    #     print(browser)
+    #     page = await browser.newPage()
+    #     await page.goto('http://www.baidu.com')
+    #     content = await page.content()
+    #     print(content.replace('\n', ''))
+    #     await page.close()
+    #     # await browser.close()
+    #     # await browser.disconnect()
+
+    # print(browsers)
+    # for browser in browsers:
+    #     print('连接:', browser)
+    #     # browser = await connect(browserWSEndpoint=endpoint)
+    #     print(browser)
+    #     page = await browser.newPage()
+    #     await page.goto('http://www.baidu.com')
+    #     content = await page.content()
+    #     print(content.replace('\n', ''))
+    #     await page.close()
+    #     # await browser.close()
+    #     # await browser.disconnect()
 
 
 asyncio.get_event_loop().run_until_complete(main())
