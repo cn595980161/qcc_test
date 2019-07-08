@@ -4,12 +4,16 @@ import logging
 import platform
 import random
 import time
+import uuid
 
 from pyppeteer import launch
 from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_type, retry_if_result
 
+from Mysql import Mysql
+from yima import get_phone, get_message
+
 if platform.system() == "Linux":
-    from pyvirtualdisplay import Display
+    pass
 
 logging.basicConfig(filename='log.txt', level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
 
@@ -39,10 +43,10 @@ launch_kwargs = {
     # 然后chrome进程就会一直没有退出 CPU就会狂飙到99%
     "userDataDir": "./userdata/tmp" + str(int(time.time())),
     "dumpio": True,
-    # 'autoClose': False,
-    "handleSIGINT": False,
-    "handleSIGTERM": False,
-    "handleSIGHUP": False
+    # # 'autoClose': False,
+    # "handleSIGINT": False,
+    # "handleSIGTERM": False,
+    # "handleSIGHUP": False
 }
 
 # exe_js.py
@@ -112,7 +116,7 @@ async def mouse_slide(page=None):
     print('开始移动')
     try:
 
-        # await page.hover('#nc_2_n1z')
+        await page.waitForSelector(".nc_iconfont.btn_slide")
         await page.hover('.nc_iconfont.btn_slide')
         await page.mouse.down()
 
@@ -124,12 +128,13 @@ async def mouse_slide(page=None):
         return None
     else:
         # await page.querySelector('.nc-lang-cnt')
-        await asyncio.sleep(3)
+        await page.waitForFunction('!document.querySelector(".nc_iconfont.btn_slide")')
+        # await asyncio.sleep(3)
         slider_again = await page.Jeval('.nc-lang-cnt', 'node => node.textContent')
         if slider_again != '验证通过':
             print('没通过:', slider_again)
             if slider_again == '哎呀，出错了，点击刷新再来一次':
-                await page.click('#dom_id_one > div > span > a')
+                await page.click('#dom_id > div > span > a')
 
             return None
             # raise RuntimeError(slider_again)
@@ -159,6 +164,67 @@ async def get_cookie(page=None):
     return cookies
 
 
+async def register():
+    browser = await launch(launch_kwargs)
+    page = await browser.newPage()
+    await page.setViewport(viewport={'width': 1000, 'height': 800})
+    print('page', page)
+
+    await page.goto('https://www.qichacha.com/user_register')
+
+    await page.evaluate(js1)
+    await page.evaluate(js3)
+    await page.evaluate(js4)
+    await page.evaluate(js5)
+
+    page.waitForSelector('#dom_id')
+    slider = await page.querySelector('#dom_id')
+
+    if slider:
+        print('出现滑块情况判定')
+        await page.screenshot({'path': './screenshot/headless-login-slide.png'})
+        print("3.操作【验证码】")
+        flag = await mouse_slide(page=page)
+        print(flag)
+        if flag:
+
+            # 获取手机号
+            print("1.获取【手机号】")
+            phone = get_phone()
+
+            # 输账号
+            print("2.输入【手机号码】{0}".format(phone))
+            await page.type('#phone', phone, {'delay': input_time_random() - 50})
+
+            print("4.点击【获取验证码】")
+            await page.click('#user_regist_mobile > div:nth-child(4) > a')
+            page.mouse  # 模拟真实点击
+
+            message = get_message(phone)
+            if message is not None:
+                print("5.输入【验证码】{0}".format(message))
+                await page.type('#vcodeNormal', message, {'delay': input_time_random() - 50})
+
+                pwd = ''.join(str(uuid.uuid4()).split('-'))[0:12]
+                print("6.输入【密码】{0}".format(pwd))
+                await page.type('#pswd', pwd, {'delay': input_time_random() - 50})
+
+                print("7.点击【注册】")
+                await page.click('#register_btn')
+                page.mouse  # 模拟真实点击
+
+                print("8.获取【cookies】")
+                await page.goto('https://www.qichacha.com')
+                cookies = await page.evaluate(
+                    '() => document.cookie'
+                )
+                print(cookies)
+                save_account(phone, pwd, cookies)
+
+                await page.close()
+                await browser.close()
+
+
 async def login(username, pwd):
     cookies = None
     # browser = await launch(headless=False, args=[f'--window-size={width},{height}', '--disable-infobars'])
@@ -170,7 +236,7 @@ async def login(username, pwd):
         # # 在一个原生的上下文中创建一个新页面
         # page = await _context.newPage()
         page = await browser.newPage()
-        print('page',page)
+        print('page', page)
         # 设置页面视图大小
         # width, height = screen_size()
         # await page.setViewport(viewport={'width': width, 'height': height})
@@ -259,8 +325,8 @@ async def login(username, pwd):
     return cookies
 
 
-async def login1(username, pwd, page):
-    print(111111111111111111111111111111111111111111)
+async def login_page(username, pwd, page):
+    print('模拟登录')
     cookies = None
     try:
         # browser, page = await PuppeteerManager().get_browser(_loop)
@@ -344,7 +410,7 @@ async def login1(username, pwd, page):
                 except Exception as e:
                     logging.error(e)
                     print(e)
-                    return
+                    return None
 
                 cookies = await get_cookie(page)
             else:
@@ -361,20 +427,34 @@ def start_loop(loop):
     loop.run_forever()
 
 
+def save_account(username, pwd, cookies):
+    insert_sql = """
+            insert into user_info(USERNAME, PASSWORD, COOKIES, STATUS, USED, LOCKED, TYPE)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+    """
+    id = mysql.insertOne(insert_sql, (username, pwd, cookies, 1, 0, 0, 2))
+    print(id)
+
+
 loop = ''
+mysql = Mysql()
+# mysql连接池
+pool = ''
 if __name__ == '__main__':
-    if platform.system() == "Linux":
-        display = Display(visible=0, size=(800, 600))
-        display.start()
+    # if platform.system() == "Linux":
+    #     display = Display(visible=0, size=(800, 600))
+    #     display.start()
 
     # thread_loop = asyncio.new_event_loop()  # 获取一个事件循环
     # run_loop_thread = threading.Thread(target=start_loop, args=(thread_loop,))  # 将次事件循环运行在一个线程中，防止阻塞当前主线程
     # run_loop_thread.start()  # 运行线程，同时协程事件循环也会运行
 
     loop = asyncio.get_event_loop()
-    for i in range(2):
-        loop.run_until_complete(login('17155851795', '06265fda1fd8'))
+
+    for i in range(10):
+        # loop.run_until_complete(login('17155851795', '06265fda1fd8'))
+        loop.run_until_complete(register())
     # asyncio.ensure_future(test(loop))
 
-if platform.system() == "Linux":
-    display.stop()
+    # if platform.system() == "Linux":
+    #     display.stop()

@@ -1,10 +1,9 @@
 import asyncio
 import threading
 import time
+from syncer import sync
 
-from pyppeteer import launch, connect
-
-from utils import wait_event
+from pyppeteer import launch
 
 
 class PuppeteerPool(object):
@@ -16,7 +15,7 @@ class PuppeteerPool(object):
 
     stat = STAT_RUNNING
 
-    _endpoint = ''
+    _browsers = ''
 
     inner_queue = asyncio.Queue()
 
@@ -50,41 +49,42 @@ class PuppeteerPool(object):
             # "handleSIGTERM": False,
             # "handleSIGHUP": False
         }
-        browser = await launch(launch_kwargs)
-        self._endpoint = browser.wsEndpoint
+        self._browsers = await launch(launch_kwargs)
 
     async def get(self):
         await self.check_running()
-        print('获取。。。')
+        print('获取。。。', self.inner_queue)
         if not self.inner_queue.empty():
-            item = await self.inner_queue.get_nowait()
+            item = self.inner_queue.get_nowait()
+            print('item', item)
             if item is not None:
                 return item
         if len(self.web_list) < self.capacity:
             self.lock.acquire()
             if len(self.web_list) < self.capacity:
                 await self.configure()
-                await self.inner_queue.put(self._endpoint)
-                self.web_list.append(self._endpoint)
+                print('config', self._browsers)
+                self.inner_queue.put_nowait(self._browsers)
+                self.web_list.append(self._browsers)
 
             self.lock.release()
 
-        endpoint = await self.inner_queue.get()
-        return await connect(browserWSEndpoint=endpoint)
+        return self.inner_queue.get_nowait()
 
     async def return_to_pool(self, browser):
         print('回收browser')
         await self.check_running()
 
-        for page in await browser.pages():
-            await page.close()
+        # for page in await browser.pages():
+        #     await page.close()
 
-        await asyncio.wait([
-            browser.disconnect(),
-            wait_event(browser, 'disconnected')
-        ])
+        # await asyncio.wait([
+        #     browser.disconnect(),
+        #     wait_event(browser, 'disconnected')
+        # ])
 
-        self.inner_queue.put(browser.wsEndpoint)
+        self.inner_queue.put_nowait(browser)
+        print(self.inner_queue)
 
     async def check_running(self):
         if self.stat != self.STAT_RUNNING:
@@ -101,18 +101,36 @@ class PuppeteerPool(object):
 
 
 async def test(i):
+    print('test')
     browser = await PuppeteerPool().get()
     print(i, '>>', browser)
-    _context = await browser.createIncognitoBrowserContext()
-    # 在一个原生的上下文中创建一个新页面
-    page = await _context.newPage()
+    # targets = browser.targets()
+    # for target in browser.targets():
+    #     print(target.type)
+    # print('targets', targets)
+    # _context = await browser.createIncognitoBrowserContext()
+    # # 在一个原生的上下文中创建一个新页面
+    # page = await _context.newPage()
+    page = await browser.newPage()
     # await asyncio.sleep(10)
     # time.sleep(5)
-    # await page.goto('https://www.baidu.com')
+    await page.goto('https://www.baidu.com')
+    content = await page.content()
+    print(content.replace('\n', ''))
+    await asyncio.sleep(5)
     await PuppeteerPool().return_to_pool(browser)
 
 
 if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    for i in range(6):
-        loop.run_until_complete(test(i + 1))
+    # loop = asyncio.get_event_loop()
+    # # for i in range(10):
+    # #     loop.run_until_complete(test(i + 1))
+    #
+    # tasks = [asyncio.ensure_future(test(i + 1)) for i in range(10)]
+    #
+    # tasks = asyncio.gather(*tasks)
+    # # tasks = asyncio.wait(tasks)
+    # loop.run_until_complete(tasks)
+    sync(test(1))
+    sync(test(2))
+    sync(test(3))
