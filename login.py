@@ -451,7 +451,7 @@ if __name__ == '__main__':
 
     loop = asyncio.get_event_loop()
 
-    for i in range(10):
+    for i in range(6):
         # loop.run_until_complete(login('17155851795', '06265fda1fd8'))
         loop.run_until_complete(register())
     # asyncio.ensure_future(test(loop))

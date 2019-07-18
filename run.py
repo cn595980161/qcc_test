@@ -9,7 +9,7 @@ import pyppeteer
 from flask import Flask, request, Response, jsonify
 from syncer import sync
 
-from qccweb import login_page, verify_page, mysql_task
+from qccweb import login_page, verify_page, mysql_task, check_verify
 
 nest_asyncio.apply()
 
@@ -58,7 +58,7 @@ class WSGICopyBody(object):
 app.response_class = JsonResponse
 app.wsgi_app = WSGICopyBody(app.wsgi_app)
 
-max_wse = 3  # 启动几个浏览器
+max_wse = 2  # 启动几个浏览器
 wse_list = []  # 存储browserWSEndpoint列表
 
 launch_kwargs = {
@@ -139,25 +139,26 @@ async def login(username, password):
 
 async def verify(username, pwd, cookies):
     # 判断页面是否出现验证码
-    tmp = random.randint(0, max_wse - 1)
-    browserWSEndpoint = wse_list[tmp]
-    browser = await pyppeteer.connect(browserWSEndpoint=browserWSEndpoint)
-    while True:
-        pages = await browser.pages()
-        print('页面个数:', len(pages))
-        if len(pages) <= 1:
+    if await check_verify(username, cookies):
+        tmp = random.randint(0, max_wse - 1)
+        browserWSEndpoint = wse_list[tmp]
+        browser = await pyppeteer.connect(browserWSEndpoint=browserWSEndpoint)
+        while True:
+            pages = await browser.pages()
+            print('页面个数:', len(pages))
+            if len(pages) <= 2:
 
-            # page = await browser.newPage()
-            _context = await browser.createIncognitoBrowserContext()
-            # 在一个原生的上下文中创建一个新页面
-            page = await _context.newPage()
+                # page = await browser.newPage()
+                _context = await browser.createIncognitoBrowserContext()
+                # 在一个原生的上下文中创建一个新页面
+                page = await _context.newPage()
 
-            await verify_page(username, pwd, cookies, page)
+                await verify_page(username, pwd, cookies, page)
 
-            await page.close()
-            break
-        else:
-            await asyncio.sleep(5)
+                await page.close()
+                break
+            else:
+                await asyncio.sleep(5)
 
 
 @app.route('/')

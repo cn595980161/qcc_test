@@ -5,7 +5,10 @@ import logging
 import random
 import time
 
+import aiohttp
 import aiomysql
+from fake_useragent import UserAgent
+from lxml import etree
 from pyppeteer import launch
 from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_type, retry_if_result
 
@@ -15,6 +18,16 @@ from Mysql import Mysql
 from exe_js import js1, js3, js4, js5, js6
 
 logger = Logger(log_file_name='log.txt', log_level=logging.DEBUG, logger_name="yongshuo").get_log()
+
+# 浏览器ua
+ua = UserAgent()
+
+# 请求头
+headers = {
+    'Accept-Language': 'zh-CN,zh;q=0.9',
+    # 'Referer': 'http://www.ys168.com/help/',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+}
 
 # loop = ''
 # mysql连接池
@@ -32,6 +45,15 @@ def convert_cookies_to_dict(_cookies, _domain):
             # cookie_dict['name'] = cookie.split("=", 1)[0]
             # cookie_dict['value'] = cookie.split("=", 1)[1]
             cookies.append(cookie_dict)
+    logger.info('cookie:' + str(cookies))
+    return cookies
+
+
+def convert_cookies_to_map(_cookies):
+    cookies = {}
+    for cookie in _cookies.replace(' ', '').split(";"):
+        if cookie != '' and cookie is not None:
+            cookies[cookie.split("=", 1)[0]] = cookie.split("=", 1)[1]
     logger.info('cookie:' + str(cookies))
     return cookies
 
@@ -167,11 +189,55 @@ async def verify_page(username, pwd, cookies, page):
 
         except Exception as e:
             logger.error('验证码失败:' + str(e))
-            update_valid(username)
+            await update_valid(username)
             return None
 
     else:
         await update_valid(username)
+
+
+async def check_verify(username, cookies):
+    flag = await download_verify('https://www.qichacha.com/index_verify?type=companyview&back=/', convert_cookies_to_map(cookies))
+    if flag is False:
+        await update_valid(username)
+    return flag
+
+
+# 处理网页
+async def download_verify(url, cookies):
+    async with aiohttp.ClientSession(cookies=cookies) as session:
+        try:
+            html = await fetch(session, url)
+            return await parser(html)
+        except Exception as err:
+            # traceback.print_exc()
+            logger.error(err)
+
+
+# 异步HTTP请求
+async def fetch(session, url):
+    headers['User-Agent'] = ua.chrome
+    retry_count = 5
+    while retry_count > 0:
+        try:
+            # with async_timeout.timeout(10):
+            async with session.get(url, headers=headers, timeout=10) as response:
+                return await response.text()
+        except Exception as err:
+            # traceback.print_exc()
+            logger.error('url请求异常 %s' % err + url)
+            retry_count -= 1
+    logger.debug('超过最大重试次数:5')
+    return None
+
+
+async def parser(html):
+    _element = etree.HTML(html)
+    title = _element.xpath("//title/text()")[0]
+    if title == '用户验证-企查查':
+        return True
+    else:
+        return False
 
 
 @retry(retry=(retry_if_result(retry_if_result_none) | retry_if_exception_type()), retry_error_callback=return_last_value, stop=stop_after_attempt(5), wait=wait_fixed(3))

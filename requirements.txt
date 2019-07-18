@@ -1,0 +1,12 @@
+flask
+gunicorn
+gevent
+nest_asyncio
+pyppeteer
+syncer
+aiohttp
+aiomysql
+fake_useragent
+lxml
+tenacity
+pyvirtualdisplay
