@@ -253,17 +253,17 @@ async def login(username, pwd):
         #     """)
         await page.goto('https://www.qichacha.com/user_login')
 
-        await page.evaluate(js1)
-        await page.evaluate(js3)
-        await page.evaluate(js4)
-        await page.evaluate(js5)
-        # await page.evaluate(
-        #     '''() =>{ Object.defineProperties(navigator,{ webdriver:{ get: () => false } }) }''')
+        # await page.evaluate(js1)
+        # await page.evaluate(js3)
+        # await page.evaluate(js4)
+        # await page.evaluate(js5)
+        await page.evaluate(
+            '''() =>{ Object.defineProperties(navigator,{ webdriver:{ get: () => undefined } }) }''')
         # 登录成功截图
         await page.screenshot({'path': './screenshot/example-%s.png' % time.time(), 'quality': 100, 'fullpage': True})
 
         logging.info("1.点击【密码登陆】")
-        page.waitForSelector('#normalLogin')
+        await page.waitForSelector('#normalLogin')
         await page.click('#normalLogin')
         page.mouse  # 模拟真实点击
 
@@ -451,9 +451,9 @@ if __name__ == '__main__':
 
     loop = asyncio.get_event_loop()
 
-    for i in range(6):
-        # loop.run_until_complete(login('17155851795', '06265fda1fd8'))
-        loop.run_until_complete(register())
+    for i in range(1):
+        loop.run_until_complete(login('15143554689', '89f6010c1337'))
+        # loop.run_until_complete(register())
     # asyncio.ensure_future(test(loop))
 
     # if platform.system() == "Linux":

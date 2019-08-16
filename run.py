@@ -9,7 +9,7 @@ import pyppeteer
 from flask import Flask, request, Response, jsonify
 from syncer import sync
 
-from qccweb import login_page, verify_page, mysql_task, check_verify
+from qccweb import login_page, verify_page, mysql_task, check_verify, check_login
 
 nest_asyncio.apply()
 
@@ -59,6 +59,9 @@ app.response_class = JsonResponse
 app.wsgi_app = WSGICopyBody(app.wsgi_app)
 
 max_wse = 2  # 启动几个浏览器
+
+width, height = 1366, 768
+
 wse_list = []  # 存储browserWSEndpoint列表
 
 launch_kwargs = {
@@ -95,18 +98,20 @@ launch_kwargs = {
 
 async def init(_loop):
     for i in range(max_wse):
-        print(i)
         # browser = await pyppeteer.launch(launch_kwargs)
         browser = await pyppeteer.launch(headless=False,
                                          args=[
-                                             # '--disable-extensions',
-                                             # '--hide-scrollbars',
-                                             # '--disable-bundled-ppapi-flash',
-                                             # '--mute-audio',
+                                             '--disable-extensions',
+                                             '--hide-scrollbars',
+                                             '--disable-bundled-ppapi-flash',
+                                             '--mute-audio',
                                              '--disable-gpu',
-                                             # '--disable-setuid-sandbox',
+                                             '--disable-setuid-sandbox',
                                              # '--no-first-run',
                                              '--no-sandbox',
+                                             '--disable-infobars',
+                                             f'--window-size={width},{height}',
+                                             '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
                                              # '--no-zygote',
                                          ],
                                          dumpio=True,
@@ -118,23 +123,34 @@ async def init(_loop):
     print(wse_list)
 
 
-async def login(username, password):
-    tmp = random.randint(0, max_wse - 1)
-    browserWSEndpoint = wse_list[tmp]
-    browser = await pyppeteer.connect(browserWSEndpoint=browserWSEndpoint)
-    # page = await browser.newPage()
-    _context = await browser.createIncognitoBrowserContext()
-    # 在一个原生的上下文中创建一个新页面
-    page = await _context.newPage()
+async def login(username, password, cookies):
+    # 判断页面是否登陆
+    if await check_login(username, cookies):
+        tmp = random.randint(0, max_wse - 1)
+        browserWSEndpoint = wse_list[tmp]
+        browser = await pyppeteer.connect(browserWSEndpoint=browserWSEndpoint)
+        while True:
+            pages = await browser.pages()
+            print('页面个数:', len(pages))
+            if len(pages) <= 2:
+                # page = await browser.newPage()
+                _context = await browser.createIncognitoBrowserContext()
+                # 在一个原生的上下文中创建一个新页面
+                page = await _context.newPage()
 
-    cookies = await login_page(username, password, page)
+                await page.setViewport({'width': width, 'height': height})
 
-    # await page.goto('http://www.baidu.com')
-    # content = await page.content()
-    # print(content.replace('\n', ''))
-    # await page.screenshot(path='example.png')
-    await page.close()
-    return cookies
+                await login_page(username, password, page)
+
+                # await page.goto('http://www.baidu.com')
+                # content = await page.content()
+                # print(content.replace('\n', ''))
+                # await page.screenshot(path='example.png')
+                await page.close()
+                break
+                # return cookies
+            else:
+                await asyncio.sleep(5)
 
 
 async def verify(username, pwd, cookies):
@@ -153,6 +169,8 @@ async def verify(username, pwd, cookies):
                 # 在一个原生的上下文中创建一个新页面
                 page = await _context.newPage()
 
+                await page.setViewport({'width': width, 'height': height})
+
                 await verify_page(username, pwd, cookies, page)
 
                 await page.close()
@@ -166,15 +184,18 @@ def hello_world():
     return 'Hello Flask!'
 
 
-@app.route('/login', methods=['GET'])
+@app.route('/login', methods=['POST'])
 def simulated_login():
-    if request.method == 'GET':
-        args = request.args.to_dict()
-
-        username = args['username']
-        password = args['password']
+    if request.method == 'POST':
+        # args = request.args.to_dict()
+        #
+        # username = args['username']
+        # password = args['password']
+        body = request.environ['body_copy'].decode('utf-8', 'replace')
+        body = json.loads(body)
+        print(body)
         try:
-            loop.run_until_complete(login(username, password))
+            loop.run_until_complete(login(body['username'], body['pwd'], body['cookies']))
             # asyncio.ensure_future(login(username, password))
             # sync(login(username, password))
         except Exception as e:
@@ -203,7 +224,7 @@ def simulated_verify():
 
 if __name__ == '__main__':
     if platform.system() == "Linux":
-        display = Display(visible=0, size=(800, 600))
+        display = Display(visible=0, size=(1366, 768))
         display.start()
 
     loop = asyncio.get_event_loop()

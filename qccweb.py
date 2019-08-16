@@ -10,12 +10,12 @@ import aiomysql
 from fake_useragent import UserAgent
 from lxml import etree
 from pyppeteer import launch
-from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_type, retry_if_result
+from tenacity import retry, retry_if_result, retry_if_exception_type, stop_after_attempt, wait_fixed
 
 import Config
 from Logger import Logger
 from Mysql import Mysql
-from exe_js import js1, js3, js4, js5, js6
+from exe_js import js1, js3, js4, js5, js6, js2
 
 logger = Logger(log_file_name='log.txt', log_level=logging.DEBUG, logger_name="yongshuo").get_log()
 
@@ -34,6 +34,8 @@ headers = {
 pool = ''
 
 mysql = Mysql()
+
+width, height = 1366, 768
 
 
 def convert_cookies_to_dict(_cookies, _domain):
@@ -75,25 +77,40 @@ async def login_page(username, pwd, page):
     logger.info('模拟登录...')
     cookies = None
     try:
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36')
         await page.goto('https://www.qichacha.com/user_login')
 
-        await page.evaluate(js1)
-        # await page.evaluate(js2)
-        await page.evaluate(js3)
-        await page.evaluate(js4)
-        await page.evaluate(js5)
-        await page.evaluate(js6)
-        await page.evaluateOnNewDocument("""
-                var _navigator = {};
-                for (name in window.navigator) {
-                    if (name != "webdriver") {
-                        _navigator[name] = window.navigator[name]
-                    }
-                }
-                Object.defineProperty(window, 'navigator', {
-                    get: ()=> _navigator,
-                })
-            """)
+        logger.info('执行脚本...')
+        # await page.evaluate(js1)
+        # await page.evaluate(js3)
+        # await page.evaluate(js4)
+        # await page.evaluate(js5)
+        # await page.evaluate(js6)
+        await page.evaluate('''() =>{ Object.defineProperties(navigator,{ webdriver:{ get: () => undefined } }) }''')  # 以下为插入中间js，将淘宝会为了检测浏览器而调用的js修改其结果。
+        await page.evaluate('''() =>{ window.navigator.chrome = { runtime: {},  }; }''')
+        await page.evaluate('''() =>{ Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] }); }''')
+        await page.evaluate('''() =>{ Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5,6], }); }''')
+        # webdriver = await page.evaluate('() => window.navigator.webdriver')
+        # logger.info('webdriver：' + str(webdriver))
+        await page.evaluate(js2)
+
+        # await page.evaluate(js1)
+        # # await page.evaluate(js2)
+        # await page.evaluate(js3)
+        # await page.evaluate(js4)
+        # await page.evaluate(js5)
+        # await page.evaluate(js6)
+        # await page.evaluateOnNewDocument("""
+        #         var _navigator = {};
+        #         for (name in window.navigator) {
+        #             if (name != "webdriver") {
+        #                 _navigator[name] = window.navigator[name]
+        #             }
+        #         }
+        #         Object.defineProperty(window, 'navigator', {
+        #             get: ()=> _navigator,
+        #         })
+        #     """)
 
         # 登录成功截图
         await page.screenshot({'path': './screenshot/example-%s.png' % time.time(), 'quality': 100, 'fullpage': True})
@@ -132,7 +149,7 @@ async def login_page(username, pwd, page):
                     print(_cookies)
                     await update_account(username, _cookies)
                 except Exception as e:
-                    logger.error('登录失败:' + str(e))
+                    logger.error('登录失败:' + e)
                     await update_account(username, cookies)
                     return None
                 # await fut
@@ -149,7 +166,7 @@ async def login_page(username, pwd, page):
                 logger.info('滑块失败')
 
     except Exception as e:
-        logger.error(str(e))
+        logger.error(e)
         await update_account(username, cookies)
     return cookies
 
@@ -159,7 +176,10 @@ async def verify_page(username, pwd, cookies, page):
     # logger.info('=', ' ' * 10, '验证码', ' ' * 10, '=')
     # logger.info('=' * 25)
     logger.info('验证码')
-    await page.setViewport(viewport={'width': 1300, 'height': 800})
+
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36')
+
+    # await page.setViewport(viewport={'width': 1300, 'height': 800})
 
     # 设置cookies
     await page.setCookie(*convert_cookies_to_dict(cookies, 'www.qichacha.com'))
@@ -171,10 +191,13 @@ async def verify_page(username, pwd, cookies, page):
     title = await page.title()
     logger.info('title:' + title)
     if title == '用户验证-企查查':
+
+        logger.info('执行脚本...')
         await page.evaluate(js1)
         await page.evaluate(js3)
         await page.evaluate(js4)
         await page.evaluate(js5)
+        await page.evaluate(js6)
 
         # 进入验证码页面截图
         await page.screenshot({'path': './screenshot/verify-%s.png' % time.time(), 'quality': 100, 'fullpage': True})
@@ -188,7 +211,7 @@ async def verify_page(username, pwd, cookies, page):
                 await update_valid(username)
 
         except Exception as e:
-            logger.error('验证码失败:' + str(e))
+            logger.error('验证码失败:' + e)
             await update_valid(username)
             return None
 
@@ -203,12 +226,30 @@ async def check_verify(username, cookies):
     return flag
 
 
+async def check_login(username, cookies):
+    flag = await download_login('https://www.qichacha.com/user_login', convert_cookies_to_map(cookies))
+    if flag is False:
+        await update_valid(username)
+    return flag
+
+
 # 处理网页
 async def download_verify(url, cookies):
     async with aiohttp.ClientSession(cookies=cookies) as session:
         try:
             html = await fetch(session, url)
-            return await parser(html)
+            return await parser_verify(html)
+        except Exception as err:
+            # traceback.print_exc()
+            logger.error(err)
+
+
+# 处理网页
+async def download_login(url, cookies):
+    async with aiohttp.ClientSession(cookies=cookies) as session:
+        try:
+            html = await fetch(session, url)
+            return await parser_login(html)
         except Exception as err:
             # traceback.print_exc()
             logger.error(err)
@@ -231,10 +272,21 @@ async def fetch(session, url):
     return None
 
 
-async def parser(html):
+async def parser_verify(html):
     _element = etree.HTML(html)
     title = _element.xpath("//title/text()")[0]
     if title == '用户验证-企查查':
+        return True
+    else:
+        return False
+
+
+async def parser_login(html):
+    _element = etree.HTML(html)
+    logger.info(_element.xpath("//title/text()"))
+    title = _element.xpath("//title/text()")[0]
+    logger.info(title)
+    if title == '会员登录 - 企查查':
         return True
     else:
         return False
@@ -256,7 +308,7 @@ async def verify(page=None):
         # 操作完验证码页面截图
         # await page.screenshot({'path': './screenshot/slide-result.png' % time.time(), 'quality': 100, 'fullpage': True})
     except Exception as e:
-        logger.info(str(e) + '     :slide login False')
+        logger.info(e + '     :slide login False')
         return None
     else:
         # document.querySelector(selector)
